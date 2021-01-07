@@ -1,0 +1,32 @@
+body {
+    background-color: #fefbf7;
+}
+
+.picture {
+    border-radius: 50%;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color: grey ;
+}
+
+.intro {
+    max-width: 29rem;
+}
+
+.impt {
+    font-weight: bold;
+}
+
+.fa {
+    color: black !important;
+}
+
+a {
+    color: tomato;
+}
+
+a:hover {
+    color: tomato;
+}
+
