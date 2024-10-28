@@ -3,38 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/0af3ff3bc3.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <title>Joyce's Personal Site</title>
+    <title>Joyce Lee - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        .company {
+            font-weight: bold;
+        }
+
+        .date-location {
+            color: #666;
+            font-style: italic;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #f7f9fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <img class="picture" src="pp.jpeg" alt="Profile picture">
-    </div>
-    <div class="container text-center mt-3">
+    <header>
         <h1>Joyce Lee</h1>
-    </div>
-    
-    <div class="container text-justify intro mt-3">
-        <div class="d-flex justify-content-around mb-3">
-            <div class="p-2 link"><a href="https://www.linkedin.com/in/joyce-lee-1810/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></div>
-            <div class="p-2 link"><a href="https://github.com/lostviolinist" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
-            <div class="p-2 link"><a href="https://twitter.com/henloitsjoyce" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
-            <div class="p-2 link"><a href="https://medium.com/@lostviolinist" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a></div>
+        <div class="contact-info">
+            Singapore • joycebusiness00@gmail.com • +6588307613
         </div>
-        <p>Hello! I am currently an APM at <span><a href="https://www.crypto.com" target="_blank">Crypto.com</a></span>. Previously I was a technical support engineer at <span><a href="https://www.bybit.com" target="_blank">Bybit</a></span>. and a software engineer intern at <span><a href="https://www.coingecko.com/en" target="_blank">Coingecko</a></span>, where I worked mostly on Ruby and Ruby on Rails. Check out my projects on my <span><a href="https://github.com/lostviolinist" target="_blank">Github</a></span> or my <span><a href="./Joyce_Lee_PM_Resume.pdf" target="_blank">resume</a></span>. <br><br>
-            I am a hackathon enthusiast, where I am constantly on the lookout for ways to combine <span class="impt">consumer</span>, <span class="impt">social</span>, and <span class="impt">fintech</span> ideas to make a wonderful product. You can read more about my hackathon journey so far <span><a href="https://medium.com/@lostviolinist/winning-and-losing-heres-what-i-learnt-from-hackathons-and-startup-competitions-ed328641c52d?sk=437a980bd9ea6eece18f12e8c51986f9" target="_blank">here</a></span>. <br><br>
-            Prior to joining tech, I was a classical violinist and pianist for almost 13 years, from the ages of 3 to 15. Presently, I post pop covers on <span><a href="https://www.youtube.com/channel/UC5vqpc6PKVM51dYzdun12Ew" target="_blank">Youtube</a></span> and <span><a href="https://www.instagram.com/lyfeofjoyce/" target="_blank">Instagram</a></span>, with the occasional touch of Classical music. <br><br>
-            I am always open to collaborations, or a chat! Come say hi to me here: <br>
-            <div class="d-flex justify-content-around mb-3">
-                <div class="p-2 link"><a href="https://www.linkedin.com/in/joyce-lee-1810/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-                <div class="p-2 link"><a href="https://github.com/lostviolinist" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></div>
-                <div class="p-2 link"><a href="https://twitter.com/henloitsjoyce" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-                <div class="p-2 link"><a href="https://medium.com/@lostviolinist" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
-            </div>
+    </header>
 
-        </p>
-    </div>
+    <section>
+        <h2>Summary</h2>
+        <p>Web3 investor and tech entrepreneur with expertise across venture capital, product management, and software development. Proven success in founding and exiting a startup, venture capital investing, launching regional products, and developing high-load software. Strong track record in building and leading teams, product strategy, and business development.</p>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Cofounder & CEO</span>
+                <span class="date-location">March 2023 -- October 2024</span>
+            </div>
+            <div class="company">Raiba AI (Acquired by Chasm) | Singapore</div>
+            <ul>
+                <li>Led company from ideation to successful exit, building initial MVP and scaling the product</li>
+                <li>Assembled and led cross-functional team while taking point on product strategy, go-to-market planning, and distribution</li>
+                <li>Successfully negotiated and executed company acquisition by Chasm in October 2024</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Associate (Web3 Investments)</span>
+                <span class="date-location">March 2022 -- March 2023</span>
+            </div>
+            <div class="company">Saison Capital | Singapore</div>
+            <ul>
+                <li>Led and managed the entire lifecycle of the deal process; deal sourcing, due diligence, deal closing</li>
+                <li>Led pre-seed investments into Krayon, Jia, and D3 Labs; Led LP investment into Pantera Capital Blockchain Fund</li>
+                <li>Led setup of token fund, managing process of audit, legal, financial operations, and stakeholder management</li>
+                <li>Supported fund initiatives for web2 to web3 product manager and developer communities</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Product Manager</span>
+                <span class="date-location">July 2021 -- March 2022</span>
+            </div>
+            <div class="company">Crypto.com | Singapore</div>
+            <ul>
+                <li>Launched Singpass and Travel Rule compliance integration for Singapore - increased successful signup rates from 65% to 99%</li>
+                <li>Led user acquisition pillar for crypto.com/price, growing site from 1,000 DAUs to 10,000 DAUs</li>
+                <li>Worked with engineers, testers, and designers across Hong Kong and Shenzhen in sprint lifecycles</li>
+                <li>Devised business and product development strategies for user conversion in Singapore</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Engineer</span>
+                <span class="date-location">Feb 2021 -- June 2021</span>
+            </div>
+            <div class="company">Bybit | Singapore</div>
+            <ul>
+                <li>Served as primary point of contact for API support for over 10 institutional clients</li>
+                <li>Developed internal tools to support customer experience and business development teams</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Software Engineer Intern</span>
+                <span class="date-location">Aug 2020 -- Feb 2021</span>
+            </div>
+            <div class="company">CoinGecko | Singapore</div>
+            <ul>
+                <li>Responsible for server-side scripting with Ruby and Ruby on Rails, and front-end programming with Javascript</li>
+                <li>Maintained testing coverage of at least 75% using Rspec</li>
+                <li>Participated in Agile Sprint planning and meetings for feature proposal and product roadmap</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Xiamen University 厦门大学</span>
+                <span class="date-location">Feb 2021</span>
+            </div>
+            <div>Bachelor of Engineering in Software Engineering (Honours)</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Technical:</strong> Software Development, Product Management, Financial Modeling, UI/UX Design</li>
+            <li><strong>Tools:</strong> MS Office (Word, Excel, PowerPoint)</li>
+            <li><strong>Languages:</strong> Fluent in English, Chinese, and Malay; Elementary proficiency in German and French</li>
+        </ul>
+    </section>
 </body>
 </html>
